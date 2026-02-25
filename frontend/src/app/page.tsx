@@ -646,7 +646,6 @@ export default function Home() {
         result && result.disease_name && (
           <VoiceAssistant
             diseaseContext={result.disease_name}
-            lang={lang}
             initialMessage={
               lang === "EN" ? `This plant has ${formatDisease(result.disease_name)} with ${(result.confidence * 100).toFixed(0)}% confidence. Check the treatment steps on screen or ask me a question.` :
                 lang === "HI" ? `इस पौधे को ${formatDisease(result.disease_name)} है। स्क्रीन पर उपचार के चरण देखें या मुझसे एक प्रश्न पूछें।` :
