@@ -970,6 +970,98 @@ REMEDIES = {
                 "గాలి ప్రసరణ కోసం మొక్కల మధ్య తగినంత దూరం ఉండేలా చూసుకోండి."
             ]
         }
+    },
+    "Grape___Black_rot": {
+        "EN": {
+            "disease_name": "Grape Black Rot",
+            "crop": "Grape",
+            "cause": "Fungus Guignardia bidwellii. Thrives in warm, humid weather during early growth.",
+            "symptoms": [
+                "Circular tan leaf spots with dark borders.",
+                "Berries turn brown, shrivel into hard black mummies.",
+                "Tendrils and shoots develop elongated cankers."
+            ],
+            "treatment_steps": [
+                "Remove all mummified fruit and infected debris.",
+                "Apply fungicide from bud break through veraison.",
+                "Prune vines to improve air circulation."
+            ],
+            "organic_options": [
+                "Copper-based fungicide early season.",
+                "Sulfur dust during dry weather.",
+                "Neem oil as supplemental spray."
+            ],
+            "chemical_options": [
+                "Myclobutanil (Rally) at label rate.",
+                "Captan 50 WP (2g/L).",
+                "Mancozeb 75 WP before bloom."
+            ],
+            "prevention": [
+                "Remove all mummies from vineyard floor.",
+                "Open canopy for better drying.",
+                "Plant resistant varieties when possible."
+            ]
+        },
+        "HI": {
+            "disease_name": "Grape Black Rot (हिंदी)",
+            "crop": "अंगूर",
+            "cause": "Fungus Guignardia bidwellii. Thrives in warm, humid weather during early growth.",
+            "symptoms": [
+                "Circular tan leaf spots with dark borders.",
+                "Berries turn brown, shrivel into hard black mummies.",
+                "Tendrils and shoots develop elongated cankers."
+            ],
+            "treatment_steps": [
+                "Remove all mummified fruit and infected debris.",
+                "Apply fungicide from bud break through veraison.",
+                "Prune vines to improve air circulation."
+            ],
+            "organic_options": [
+                "Copper-based fungicide early season.",
+                "Sulfur dust during dry weather.",
+                "Neem oil as supplemental spray."
+            ],
+            "chemical_options": [
+                "Myclobutanil (Rally) at label rate.",
+                "Captan 50 WP (2g/L).",
+                "Mancozeb 75 WP before bloom."
+            ],
+            "prevention": [
+                "Remove all mummies from vineyard floor.",
+                "Open canopy for better drying.",
+                "Plant resistant varieties when possible."
+            ]
+        },
+        "TE": {
+            "disease_name": "Grape Black Rot (తెలుగు)",
+            "crop": "ద్రాక్ష",
+            "cause": "Fungus Guignardia bidwellii. Thrives in warm, humid weather during early growth.",
+            "symptoms": [
+                "Circular tan leaf spots with dark borders.",
+                "Berries turn brown, shrivel into hard black mummies.",
+                "Tendrils and shoots develop elongated cankers."
+            ],
+            "treatment_steps": [
+                "Remove all mummified fruit and infected debris.",
+                "Apply fungicide from bud break through veraison.",
+                "Prune vines to improve air circulation."
+            ],
+            "organic_options": [
+                "Copper-based fungicide early season.",
+                "Sulfur dust during dry weather.",
+                "Neem oil as supplemental spray."
+            ],
+            "chemical_options": [
+                "Myclobutanil (Rally) at label rate.",
+                "Captan 50 WP (2g/L).",
+                "Mancozeb 75 WP before bloom."
+            ],
+            "prevention": [
+                "Remove all mummies from vineyard floor.",
+                "Open canopy for better drying.",
+                "Plant resistant varieties when possible."
+            ]
+        }
     }
 }
 
