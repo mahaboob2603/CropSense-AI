@@ -289,7 +289,7 @@ async def predict_adaptive(
                 longitude=longitude,
                 spread_risk=risk,
                 severity=severity,
-                timestamp=datetime.utcnow()
+                timestamp=datetime.now()
             )
             db.add(detection)
             db.commit()

@@ -23,7 +23,7 @@ class Detection(Base):
     confidence = Column(Float)
     latitude = Column(Float, nullable=True)
     longitude = Column(Float, nullable=True)
-    timestamp = Column(DateTime, default=datetime.utcnow)
+    timestamp = Column(DateTime, default=datetime.now)
     spread_risk = Column(String) # HIGH, MEDIUM, LOW
     severity = Column(String, nullable=True) # Mild, Moderate, Severe, Unknown
 

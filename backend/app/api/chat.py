@@ -36,9 +36,15 @@ async def chat_with_bot(request: ChatRequest, current_user: User = Depends(get_c
         
     structured_data = remedy_data[lang]
     
-    api_key = os.getenv("GEMINI_API_KEY")
-    if api_key:
-        genai.configure(api_key=api_key)
+    keys = [
+        os.getenv("GEMINI_API_KEY_1"),
+        os.getenv("GEMINI_API_KEY_2"),
+        os.getenv("GEMINI_API_KEY") # Legacy fallback
+    ]
+    api_keys = [k for k in keys if k]
+    
+    if api_keys:
+        import logging
         
         prompt = f"""
 You are CropSense AI, a helpful agricultural assistant. The user's plant is currently diagnosed with '{structured_data['disease_name']}'. 
@@ -53,25 +59,26 @@ If the question is completely unrelated to agriculture or the plant, politely de
 """
         
         gemini_models_to_try = [
-            'gemini-2.5-flash',
-            'gemini-2.0-flash',
-            'gemini-2.0-flash-lite',
-            'gemini-flash-latest',
             'gemini-1.5-flash',
-            'gemini-1.5-flash-8b'
+            'gemini-1.5-flash-8b',
+            'gemini-pro'
         ]
         
-        for model_name in gemini_models_to_try:
-            try:
-                model = genai.GenerativeModel(model_name)
-                response = model.generate_content(prompt)
-                return ChatResponse(answer=response.text.strip())
-            except Exception as e:
-                import logging
-                logging.error(f"[{model_name}] API EXCEPTION: {str(e)}")
-                continue
+        for api_key in api_keys:
+            genai.configure(api_key=api_key)
+            for model_name in gemini_models_to_try:
+                try:
+                    model = genai.GenerativeModel(model_name)
+                    response = model.generate_content(prompt)
+                    return ChatResponse(answer=response.text.strip())
+                except Exception as e:
+                    logging.error(f"Gemini API Error with key {api_key[:8]}... using model {model_name}: {str(e)}")
+                    # If it's a 429 or other exhaustion error, break inner loop to try next key
+                    if "429" in str(e) or "quota" in str(e).lower():
+                        break
+                    continue
                 
-        # If we reach here, ALL models failed (exhausted). Fall down to manual handlers below.
+        # If we reach here, ALL keys and models failed. Fall down to manual handlers below.
             
     # --- Intelligent Contextual Fallback (If no API Key or API fails) ---
     question_lower = question.lower()
