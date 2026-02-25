@@ -61,6 +61,7 @@ If the question is completely unrelated to agriculture or the plant, politely de
         gemini_models_to_try = [
             'gemini-1.5-flash',
             'gemini-1.5-flash-8b',
+            'gemini-2.0-flash-exp',
             'gemini-pro'
         ]
         
@@ -69,11 +70,35 @@ If the question is completely unrelated to agriculture or the plant, politely de
             for model_name in gemini_models_to_try:
                 try:
                     model = genai.GenerativeModel(model_name)
-                    response = model.generate_content(prompt)
-                    return ChatResponse(answer=response.text.strip())
+                    # Relax safety settings to prevent false-positive blocks on agricultural advice
+                    safety_settings = [
+                        {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+                        {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+                        {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+                        {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
+                    ]
+                    response = model.generate_content(prompt, safety_settings=safety_settings)
+                    
+                    if response.candidates and response.candidates[0].content.parts:
+                        return ChatResponse(answer=response.text.strip())
+                    else:
+                        logging.warning(f"Gemini Safety Block or Empty Response for {model_name} with key {api_key[:8]}...")
+                        continue
                 except Exception as e:
-                    logging.error(f"Gemini API Error with key {api_key[:8]}... using model {model_name}: {str(e)}")
-                    # If it's a 429 or other exhaustion error, break inner loop to try next key
+                    logging.error(f"Gemini Error ({model_name}, {api_key[:8]}): {str(e)}")
+                    if "404" in str(e): # If model not found, try dynamic discovery
+                        try:
+                            available_models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
+                            if available_models:
+                                fallback_model_name = available_models[0]
+                                logging.info(f"Dynamically discovered fallback model: {fallback_model_name}")
+                                model = genai.GenerativeModel(fallback_model_name)
+                                response = model.generate_content(prompt, safety_settings=safety_settings)
+                                if response.candidates and response.candidates[0].content.parts:
+                                    return ChatResponse(answer=response.text.strip())
+                        except Exception as inner_e:
+                            logging.error(f"Dynamic fallback failed: {str(inner_e)}")
+                    
                     if "429" in str(e) or "quota" in str(e).lower():
                         break
                     continue

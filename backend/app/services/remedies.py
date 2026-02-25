@@ -635,63 +635,63 @@ REMEDIES = {
             ]
         },
         "HI": {
-            "disease_name": "Cherry Powdery Mildew (हिंदी)",
+            "disease_name": "चेरी का चूर्णिल आसिता",
             "crop": "चेरी",
-            "cause": "Fungus Podosphaera clandestina. Favors warm, dry days with cool nights.",
+            "cause": "कवक पोडोस्फेरा क्लैंडेस्टिना (Podosphaera clandestina) के कारण होता है। गर्म, शुष्क दिन और ठंडी रातें इसके लिए अनुकूल होती हैं।",
             "symptoms": [
-                "White powdery coating on young leaves and shoots.",
-                "Leaf curling and stunted shoot growth.",
-                "Fruit may develop superficial blemishes."
+                "युवा पत्तियों और अंकुरों पर सफेद चूर्ण जैसा लेप।",
+                "पत्तियों का मुड़ना और अंकुरों का अवरुद्ध विकास।",
+                "फलों पर ऊपरी सतह पर दाग-धब्बे पड़ सकते हैं।"
             ],
             "treatment_steps": [
-                "Remove and destroy infected shoots during dormant pruning.",
-                "Apply sulfur-based fungicide at petal fall.",
-                "Ensure good air circulation by thinning canopy."
+                "सुषुप्त अवस्था में छंटाई के दौरान संक्रमित अंकुरों को हटाकर नष्ट करें।",
+                "पंखुड़ी गिरने पर सल्फर-आधारित फफूंदनाशक का प्रयोग करें।",
+                "छतरी को पतला करके हवा का अच्छा संचार सुनिश्चित करें।"
             ],
             "organic_options": [
-                "Potassium bicarbonate spray (3g/L).",
-                "Neem oil applied at 7-day intervals.",
-                "Milk spray (1:9 ratio with water)."
+                "पोटेशियम बाइकार्बोनेट का छिड़काव (3 ग्राम/लीटर)।",
+                "7 दिनों के अंतराल पर नीम के तेल का प्रयोग करें।",
+                "दूध का छिड़काव (पानी के साथ 1:9 के अनुपात में)।"
             ],
             "chemical_options": [
-                "Myclobutanil (Rally) at label rate.",
-                "Trifloxystrobin (Flint) preventively.",
-                "Sulfur 80 WP (3g/L water)."
+                "माइक्लोब्यूटानिल (रैली) का लेबल दर पर प्रयोग करें।",
+                "ट्राइफ्लॉक्सिस्ट्रोबिन (फ्लिंट) का निवारक रूप से प्रयोग करें।",
+                "सल्फर 80 डब्ल्यू पी (3 ग्राम/लीटर पानी) का प्रयोग करें।"
             ],
             "prevention": [
-                "Plant resistant cherry cultivars.",
-                "Avoid overhead irrigation.",
-                "Prune for open canopy structure."
+                "प्रतिरोधी चेरी किस्मों को लगाएं।",
+                "ऊपरी सिंचाई से बचें।",
+                "खुली छतरी संरचना के लिए छंटाई करें।"
             ]
         },
         "TE": {
-            "disease_name": "Cherry Powdery Mildew (తెలుగు)",
+            "disease_name": "చెర్రీ బూడిద తెగులు",
             "crop": "చెర్రీ",
-            "cause": "Fungus Podosphaera clandestina. Favors warm, dry days with cool nights.",
+            "cause": "పోడోస్ఫెరా క్లాండెస్టైనా అనే శిలీంధ్రం వలన వస్తుంది. వెచ్చని, పొడి రోజులు మరియు చల్లని రాత్రులు దీనికి అనుకూలం.",
             "symptoms": [
-                "White powdery coating on young leaves and shoots.",
-                "Leaf curling and stunted shoot growth.",
-                "Fruit may develop superficial blemishes."
+                "లేత ఆకులు మరియు చిగుళ్ళపై తెల్లటి బూడిద పూత.",
+                "ఆకులు ముడుచుకుపోవడం మరియు చిగుళ్ళ పెరుగుదల మందగించడం.",
+                "పండ్లపై పైపైన మచ్చలు ఏర్పడవచ్చు."
             ],
             "treatment_steps": [
-                "Remove and destroy infected shoots during dormant pruning.",
-                "Apply sulfur-based fungicide at petal fall.",
-                "Ensure good air circulation by thinning canopy."
+                "చెట్లు నిద్రాణ స్థితిలో ఉన్నప్పుడు కత్తిరించేటప్పుడు సోకిన చిగుళ్ళను తొలగించి నాశనం చేయండి.",
+                "పూల రేకులు రాలిన తర్వాత సల్ఫర్ ఆధారిత శిలీంధ్రనాశకాన్ని పిచికారీ చేయండి.",
+                "చెట్ల కొమ్మలను పల్చబరచడం ద్వారా మంచి గాలి ప్రసరణను నిర్ధారించుకోండి."
             ],
             "organic_options": [
-                "Potassium bicarbonate spray (3g/L).",
-                "Neem oil applied at 7-day intervals.",
-                "Milk spray (1:9 ratio with water)."
+                "పొటాషియం బైకార్బోనేట్ పిచికారీ (3 గ్రా/లీ).",
+                "7 రోజుల వ్యవధిలో వేప నూనెను పిచికారీ చేయండి.",
+                "పాలు పిచికారీ (నీటితో 1:9 నిష్పత్తిలో)."
             ],
             "chemical_options": [
-                "Myclobutanil (Rally) at label rate.",
-                "Trifloxystrobin (Flint) preventively.",
-                "Sulfur 80 WP (3g/L water)."
+                "మైక్లోబుటానిల్ (రాలీ) లేబుల్ సూచించిన మోతాదులో.",
+                "ట్రైఫ్లోక్సిస్ట్రోబిన్ (ఫ్లింట్) నివారణగా.",
+                "సల్ఫర్ 80 WP (3 గ్రా/లీ నీటిలో)."
             ],
             "prevention": [
-                "Plant resistant cherry cultivars.",
-                "Avoid overhead irrigation.",
-                "Prune for open canopy structure."
+                "తెగులు నిరోధక చెర్రీ రకాలను నాటండి.",
+                "తల పై నుండి నీటిపారుదలను నివారించండి.",
+                "గాలి తగిలేలా పందిరిని కత్తిరించండి."
             ]
         }
     },
@@ -727,63 +727,63 @@ REMEDIES = {
             ]
         },
         "HI": {
-            "disease_name": "Corn Gray Leaf Spot (हिंदी)",
+            "disease_name": "मक्का का धूसर पत्ती धब्बा",
             "crop": "मक्का",
-            "cause": "Fungus Cercospora zeae-maydis. Thrives in warm, humid conditions with poor air flow.",
+            "cause": "सर्कोस्पोरा ज़ी-मेडीस कवक के कारण। यह गर्म, आर्द्र परिस्थितियों और खराब वायु संचार वाले स्थानों में पनपता है।",
             "symptoms": [
-                "Rectangular, gray to tan lesions between leaf veins.",
-                "Lesions may coalesce causing large dead areas.",
-                "Severe infections lead to premature leaf death."
+                "पत्ती की शिराओं के बीच आयताकार, धूसर से हल्के भूरे रंग के धब्बे।",
+                "धब्बे आपस में मिलकर बड़े मृत क्षेत्र बना सकते हैं।",
+                "गंभीर संक्रमण से पत्तियां समय से पहले मर जाती हैं।"
             ],
             "treatment_steps": [
-                "Rotate corn with non-host crops (soybean, wheat).",
-                "Till crop residue to reduce inoculum.",
-                "Apply foliar fungicide at VT-R1 growth stage."
+                "गैर-मेजबान फसलों (जैसे सोयाबीन, गेहूं) के साथ मक्के की फसल का चक्रीकरण करें।",
+                "रोगजनक को कम करने के लिए फसल अवशेषों को जुताई करके मिट्टी में मिलाएं।",
+                "वीटी-आर1 वृद्धि अवस्था पर पत्तियों पर फफूंदनाशक का छिड़काव करें।"
             ],
             "organic_options": [
-                "Bacillus subtilis biological fungicide.",
-                "Trichoderma-based soil amendments.",
-                "Compost tea foliar spray."
+                "बैसिलस सबटिलिस जैविक फफूंदनाशक।",
+                "ट्राइकोडर्मा-आधारित मृदा सुधारक।",
+                "कम्पोस्ट चाय का पत्तियों पर छिड़काव।"
             ],
             "chemical_options": [
-                "Azoxystrobin (Quadris) at 200ml/acre.",
-                "Propiconazole (Tilt) at recommended rate.",
-                "Pyraclostrobin + Metconazole combination."
+                "एज़ॉक्सिस्ट्रोबिन (क्वाड्रिस) 200 मिली/एकड़ की दर से।",
+                "प्रोपीकोनाज़ोल (टिल्ट) सिफारिश की गई दर पर।",
+                "पाइराक्लोस्ट्रोबिन + मेटकोनाज़ोल का संयोजन।"
             ],
             "prevention": [
-                "Plant gray leaf spot resistant hybrids.",
-                "Avoid continuous corn planting.",
-                "Maintain proper plant spacing."
+                "धूसर पत्ती धब्बा प्रतिरोधी संकर किस्में लगाएं।",
+                "लगातार मक्का बोने से बचें।",
+                "पौधों के बीच उचित दूरी बनाए रखें।"
             ]
         },
         "TE": {
-            "disease_name": "Corn Gray Leaf Spot (తెలుగు)",
+            "disease_name": "మొక్కజొన్న బూడిద ఆకు మచ్చ",
             "crop": "మొక్కజొన్న",
-            "cause": "Fungus Cercospora zeae-maydis. Thrives in warm, humid conditions with poor air flow.",
+            "cause": "సెర్కోస్పోరా జియే-మేడిస్ అనే శిలీంధ్రం వలన వస్తుంది. వెచ్చని, తేమతో కూడిన వాతావరణం మరియు తక్కువ గాలి ప్రసరణ ఉన్న చోట ఇది వృద్ధి చెందుతుంది.",
             "symptoms": [
-                "Rectangular, gray to tan lesions between leaf veins.",
-                "Lesions may coalesce causing large dead areas.",
-                "Severe infections lead to premature leaf death."
+                "ఆకు ఈనెల మధ్య దీర్ఘచతురస్రాకార, బూడిద నుండి లేత గోధుమ రంగు మచ్చలు.",
+                "మచ్చలు కలిసిపోయి పెద్ద చనిపోయిన ప్రాంతాలను ఏర్పరచవచ్చు.",
+                "తీవ్రమైన ఇన్ఫెక్షన్లు ఆకులు ముందుగానే చనిపోవడానికి దారితీస్తాయి."
             ],
             "treatment_steps": [
-                "Rotate corn with non-host crops (soybean, wheat).",
-                "Till crop residue to reduce inoculum.",
-                "Apply foliar fungicide at VT-R1 growth stage."
+                "మొక్కజొన్నను ఈ తెగులును ఆశ్రయించని పంటలతో (సోయాబీన్, గోధుమ) మార్చి సాగు చేయాలి.",
+                "తెగులు వ్యాప్తిని తగ్గించడానికి పంట అవశేషాలను దున్నాలి.",
+                "VT-R1 పెరుగుదల దశలో ఆకులపై శిలీంద్ర సంహారిణిని పిచికారీ చేయాలి."
             ],
             "organic_options": [
-                "Bacillus subtilis biological fungicide.",
-                "Trichoderma-based soil amendments.",
-                "Compost tea foliar spray."
+                "బాసిల్లస్ సబ్‌టిలిస్ జీవ శిలీంద్ర సంహారిణి.",
+                "ట్రైకోడెర్మా ఆధారిత నేల మెరుగుదలు.",
+                "కంపోస్ట్ టీ ఆకులపై పిచికారీ."
             ],
             "chemical_options": [
-                "Azoxystrobin (Quadris) at 200ml/acre.",
-                "Propiconazole (Tilt) at recommended rate.",
-                "Pyraclostrobin + Metconazole combination."
+                "అజోక్సిస్ట్రోబిన్ (క్వాడ్రిస్) ఎకరాకు 200 మి.లీ.",
+                "ప్రొపికొనజోల్ (టిల్ట్) సిఫార్సు చేసిన మోతాదులో.",
+                "పైరాక్లోస్ట్రోబిన్ + మెట్కొనజోల్ మిశ్రమం."
             ],
             "prevention": [
-                "Plant gray leaf spot resistant hybrids.",
-                "Avoid continuous corn planting.",
-                "Maintain proper plant spacing."
+                "బూడిద ఆకు మచ్చ నిరోధక సంకర రకాలను నాటాలి.",
+                "నిరంతర మొక్కజొన్న సాగును నివారించాలి.",
+                "సరైన మొక్కల మధ్య దూరాన్ని నిర్వహించాలి."
             ]
         }
     },
@@ -941,33 +941,33 @@ REMEDIES = {
             ]
         },
         "TE": {
-            "disease_name": "Corn Northern Leaf Blight (తెలుగు)",
+            "disease_name": "మొక్కజొన్న ఉత్తర ఆకుమచ్చ తెగులు",
             "crop": "మొక్కజొన్న",
-            "cause": "Fungus Exserohilum turcicum. Favors moderate temperatures (18-27°C) and high humidity.",
+            "cause": "Exserohilum turcicum అనే శిలీంధ్రం వల్ల వస్తుంది. మధ్యస్థ ఉష్ణోగ్రతలు (18-27°C) మరియు అధిక తేమ దీనికి అనుకూలం.",
             "symptoms": [
-                "Large, cigar-shaped gray-green to tan lesions (up to 15cm).",
-                "Lesions start on lower leaves and progress upward.",
-                "Severe infection causes significant yield loss."
+                "పెద్ద, సిగార్ ఆకారంలో బూడిద-ఆకుపచ్చ నుండి గోధుమ రంగు మచ్చలు (15 సెం.మీ వరకు).",
+                "మచ్చలు కింది ఆకులపై ప్రారంభమై పైకి వ్యాపిస్తాయి.",
+                "తీవ్రమైన సంక్రమణ గణనీయమైన దిగుబడి నష్టానికి కారణమవుతుంది."
             ],
             "treatment_steps": [
-                "Apply fungicide at early tassel stage if disease is present.",
-                "Rotate crops to break disease cycle.",
-                "Incorporate infected residue into soil after harvest."
+                "తెగులు ఉంటే ప్రారంభ కంకి దశలో శిలీంద్రనాశకాలు పిచికారీ చేయాలి.",
+                "తెగులు చక్రం నివారించడానికి పంట మార్పిడి చేయాలి.",
+                "కోత తర్వాత సోకిన అవశేషాలను మట్టిలో కలిపి దున్నాలి."
             ],
             "organic_options": [
-                "Trichoderma harzianum soil application.",
-                "Copper hydroxide spray.",
-                "Crop rotation with legumes."
+                "ట్రైకోడెర్మా హర్జైనమ్ నేల అనువర్తనం.",
+                "కాపర్ హైడ్రాక్సైడ్ పిచికారీ.",
+                "పప్పుధాన్యాల పంటలతో పంట మార్పిడి."
             ],
             "chemical_options": [
-                "Azoxystrobin at recommended rate.",
-                "Propiconazole + Azoxystrobin premix.",
-                "Mancozeb 75 WP (2.5g/L)."
+                "సిఫార్సు చేయబడిన మోతాదులో అజాక్సిస్ట్రోబిన్.",
+                "ప్రొపికోనజోల్ + అజాక్సిస్ట్రోబిన్ ప్రీమిక్స్.",
+                "మ్యాంకోజెబ్ 75 WP (2.5గ్రా/లీ)."
             ],
             "prevention": [
-                "Select resistant hybrids (Ht genes).",
-                "Avoid no-till continuous corn.",
-                "Ensure adequate plant spacing for air flow."
+                "నిరోధక హైబ్రిడ్‌లను (Ht జన్యువులు) ఎంచుకోండి.",
+                "దున్నకుండా నిరంతర మొక్కజొన్న సాగును నివారించండి.",
+                "గాలి ప్రసరణ కోసం మొక్కల మధ్య తగినంత దూరం ఉండేలా చూసుకోండి."
             ]
         }
     },
@@ -2413,137 +2413,48 @@ REMEDIES = {
             ]
         },
         "TE": {
-            "disease_name": "Tomato Mosaic Virus (తెలుగు)",
+            "disease_name": "టమాటా మొజాయిక్ వైరస్",
             "crop": "టమాటా",
-            "cause": "Tobamovirus. Extremely stable; spread by contact, contaminated tools, and seed.",
+            "cause": "టోబామోవైరస్ (Tobamovirus). ఇది చాలా స్థిరంగా ఉంటుంది; స్పర్శ ద్వారా, కలుషితమైన పనిముట్ల ద్వారా మరియు విత్తనాల ద్వారా వ్యాపిస్తుంది.",
             "symptoms": [
-                "Light and dark green mosaic mottling on leaves.",
-                "Leaf distortion, fernleaf or shoestring symptoms.",
-                "Uneven fruit ripening with internal browning."
+                "ఆకులపై లేత మరియు ముదురు ఆకుపచ్చ మొజాయిక్ మచ్చలు (మొజాయిక్ మోట్లింగ్).",
+                "ఆకులు వక్రీకరించడం (డిస్టార్షన్), ఫెర్న్‌లీఫ్ లేదా షూస్ట్రింగ్ వంటి లక్షణాలు.",
+                "పండ్లు అసమానంగా పండటం మరియు లోపల గోధుమ రంగులోకి మారడం."
             ],
             "treatment_steps": [
-                "Remove and destroy infected plants.",
-                "Disinfect all tools with 10% bleach or TSP.",
-                "Wash hands with soap before handling plants."
+                "సోకిన మొక్కలను తొలగించి నాశనం చేయాలి.",
+                "అన్ని పనిముట్లను 10% బ్లీచ్ లేదా TSP ద్రావణంతో శుభ్రపరచాలి (డిస్‌ఇన్‌ఫెక్ట్ చేయాలి).",
+                "మొక్కలను తాకడానికి ముందు సబ్బుతో చేతులు కడుక్కోవాలి."
             ],
             "organic_options": [
-                "Skim milk spray (20%) as preventative.",
-                "Disinfect tools between plants.",
-                "Remove infected plants at first symptoms."
+                "నివారణ చర్యగా 20% చిక్కటి పాల (స్కిమ్ మిల్క్) ద్రావణాన్ని పిచికారీ చేయాలి.",
+                "మొక్కల మధ్య పనిముట్లను శుభ్రపరచాలి.",
+                "మొదటి లక్షణాలు కనిపించిన వెంటనే సోకిన మొక్కలను తొలగించాలి."
             ],
             "chemical_options": [
-                "No effective chemical treatment exists.",
-                "Focus on vector and sanitation control.",
-                "Use resistant varieties as primary defense."
+                "ప్రభావవంతమైన రసాయన చికిత్స అందుబాటులో లేదు.",
+                "వాహకాలు (వెక్టర్లు) మరియు పరిశుభ్రత నియంత్రణపై దృష్టి పెట్టాలి.",
+                "నిరోధక రకాలను ప్రాథమిక రక్షణగా ఉపయోగించాలి."
             ],
             "prevention": [
-                "Plant TMV-resistant varieties (Tm-2 gene).",
-                "Use certified virus-free seed.",
-                "Avoid tobacco use near tomato plants."
+                "TMV-నిరోధక రకాలను (Tm-2 జన్యువు కలిగినవి) నాటాలి.",
+                "ధృవీకరించబడిన వైరస్ రహిత విత్తనాలను ఉపయోగించాలి.",
+                "టమాటా మొక్కల దగ్గర పొగాకు వాడకాన్ని నివారించాలి."
             ]
         }
     }
 }
 
-def get_remedy_for_disease(disease_key: str) -> dict:
+def get_remedy_for_disease(disease_name: str) -> dict:
     """
-    Returns the trilingual remedy dictionary for a given disease class.
-    If not explicitly defined above, returns a generated placeholder following the schema.
+    Returns the remedy dictionary mapping (EN, HI, TE) for a given disease string.
+    If exact match isn't found, falls back to Tomato___healthy or a default.
     """
-    if disease_key in REMEDIES:
-        return REMEDIES[disease_key]
+    if disease_name in REMEDIES:
+        return REMEDIES[disease_name]
     
-    crop = disease_key.split("___")[0].replace("_", " ")
-    condition = disease_key.split("___")[1].replace("_", " ") if "___" in disease_key else disease_key
-    
-    if "healthy" in disease_key.lower():
-        return {
-            "EN": {
-                "disease_name": "Healthy",
-                "crop": crop,
-                "cause": "Plant is currently free from visible diseases.",
-                "symptoms": ["Green, vibrant foliage.", "No visible spots or lesions.", "Steady growth."],
-                "treatment_steps": ["No specific treatment required. Continue regular maintenance."],
-                "organic_options": ["Continue compost teas and organic fertilizers for soil health."],
-                "chemical_options": ["Not applicable."],
-                "prevention": [
-                    "Maintain consistent watering.",
-                    "Apply balanced fertilizer when needed.",
-                    "Ensure proper sunlight and spacing."
-                ]
-            },
-            "HI": {
-                "disease_name": "स्वस्थ",
-                "crop": crop,
-                "cause": "पौधा वर्तमान में दृश्यमान बीमारियों से मुक्त है।",
-                "symptoms": ["हरी, जीवंत पत्तियां।", "कोई दिखाई देने वाले धब्बे या घाव नहीं।", "स्थिर वृद्धि।"],
-                "treatment_steps": ["किसी विशेष उपचार की आवश्यकता नहीं है। नियमित रखरखाव जारी रखें।"],
-                "organic_options": ["मिट्टी के स्वास्थ्य के लिए जैविक खाद जारी रखें।"],
-                "chemical_options": ["लागू नहीं।"],
-                "prevention": [
-                    "नियमित रूप से पानी दें।",
-                    "जरूरत पड़ने पर संतुलित उर्वरक डालें।",
-                    "उचित धूप सुनिश्चित करें।"
-                ]
-            },
-            "TE": {
-                "disease_name": "ఆరోగ్యవంతమైనది",
-                "crop": crop,
-                "cause": "మొక్క ప్రస్తుతం ఎటువంటి వ్యాధుల్లేకుండా ఆరోగ్యంగా ఉంది.",
-                "symptoms": ["ఆకుపచ్చని ఆకులు.", "మచ్చలు లేదా గాయాలు లేకపోవడం.", "స్థిరమైన ఎదుగుదల."],
-                "treatment_steps": ["ఎటువంటి ప్రత్యేక చికిత్స అవసరం లేదు. సాధారణ సంరక్షణ కొనసాగించండి."],
-                "organic_options": ["నేల ఆరోగ్యం కోసం సేంద్రియ ఎరువులు వాడటం కొనసాగించండి."],
-                "chemical_options": ["వర్తించదు."],
-                "prevention": [
-                    "సరిపడా నీరు పెట్టండి.",
-                    "అవసరమైనప్పుడు సమతుల్య ఎరువులు వాడండి.",
-                    "సరియైన గాలి ఉంచండి."
-                ]
-            }
-        }
-    
-    # Generic default for missing classes
-    return {
-        "EN": {
-            "disease_name": condition,
-            "crop": crop,
-            "cause": f"Pathogen affecting {crop}.",
-            "symptoms": ["Visible discoloration or lesions on leaves.", "Stunted growth."],
-            "treatment_steps": [
-                "Remove isolated infected leaves immediately.",
-                f"Consult local agricultural extension for {condition} specific care.",
-                "Ensure proper drainage and aeration."
-            ],
-            "organic_options": ["Neem oil spray (5ml/L of water)", "Copper-based biological fungicide"],
-            "chemical_options": ["Broad-spectrum agricultural fungicide", "Consult aggri-dealer for localized chemical"],
-            "prevention": ["Crop rotation", "Proper spacing for airflow", "Disinfect tools"]
-        },
-        "HI": {
-            "disease_name": condition + " (जनरल)",
-            "crop": crop,
-            "cause": f"{crop} को प्रभावित करने वाला रोगज़नक़।",
-            "symptoms": ["पत्तियों पर रंग बदलना या घाव।", "विकास का रुकना।"],
-            "treatment_steps": [
-                "संक्रमित पत्तियों को तुरंत हटा दें।",
-                f"विशिष्ट देखभाल के लिए स्थानीय कृषि विस्तार से परामर्श लें।",
-                "उचित जल निकासी और वातन सुनिश्चित करें।"
-            ],
-            "organic_options": ["नीम के तेल का स्प्रे (5 मि.ली. / लीटर पानी)", "तांबे आधारित जैविक कवकनाशी"],
-            "chemical_options": ["व्यापक स्पेक्ट्रम कृषि कवकनाशी", "स्थानीय रसायन के लिए कृषि-डीलर से परामर्श लें"],
-            "prevention": ["फसल चक्र", "हवा के प्रवाह के लिए उचित दूरी", "उपकरणों को कीटाणुरहित करना"]
-        },
-        "TE": {
-            "disease_name": condition + " (సాధారణ)",
-            "crop": crop,
-            "cause": f"{crop} ను ప్రభావితం చేసే వ్యాధి.",
-            "symptoms": ["ఆకుల రంగు మారడం లేదా మచ్చలు.", "పెరుగుదల ఆగిపోవడం."],
-            "treatment_steps": [
-                "వ్యాధి సోకిన ఆకులను వెంటనే తొలగించండి.",
-                f"నిర్దిష్ట సంరక్షణ కోసం స్థానిక వ్యవసాయ అధికారులను సంప్రదించండి.",
-                "సరైన నీటి పారుదల మరియు గాలి ఆడేటట్లు చూసుకోండి."
-            ],
-            "organic_options": ["వేప నూనె పిచికారీ (5 మి.లీ / లీటర్ నీటికి)", "కాపర్-ఆధారిత జీవ శిలీంద్రనాశిని"],
-            "chemical_options": ["బ్రాడ్-స్పెక్ట్రమ్ అగ్రికల్చరల్ ఫంగిసైడ్", "రసాయనాల కొరకు వ్యవసాయ డీలర్ను సంప్రదించండి"],
-            "prevention": ["పంట మార్పిడి", "గాలి ప్రసరణ కోసం సరైన దూరం", "పనిముట్లను శుభ్రపరచడం"]
-        }
-    }
+    for d in REMEDIES.keys():
+        if d.lower() in disease_name.lower():
+            return REMEDIES[d]
+            
+    return REMEDIES.get("Tomato___healthy")
