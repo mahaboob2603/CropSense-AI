@@ -38,11 +38,9 @@ async def chat_with_bot(request: ChatRequest, current_user: User = Depends(get_c
     
     api_key = os.getenv("GEMINI_API_KEY")
     if api_key:
-        try:
-            genai.configure(api_key=api_key)
-            model = genai.GenerativeModel('gemini-1.5-flash')
-            
-            prompt = f"""
+        genai.configure(api_key=api_key)
+        
+        prompt = f"""
 You are CropSense AI, a helpful agricultural assistant. The user's plant is currently diagnosed with '{structured_data['disease_name']}'. 
 Here is all the reliable remedy data we have for this disease:
 {structured_data}
@@ -53,11 +51,27 @@ CRITICAL RULE 1: The user might type their query in transliterated English (Hing
 CRITICAL RULE 2: Your response WILL be spoken by a Voice Assistant via Text-to-Speech. You MUST keep your answer extremely short, conversational, and UNDER 300 characters (approx 2 sentences). Do not use lists, bullet points, or markdown. Do not mention you are an AI.
 If the question is completely unrelated to agriculture or the plant, politely decline to answer.
 """
-            response = model.generate_content(prompt)
-            return ChatResponse(answer=response.text.strip())
-        except Exception as e:
-            import logging
-            logging.error(f">>> GEMINI API EXCEPTION TRACE <<<\n{e}")
+        
+        gemini_models_to_try = [
+            'gemini-2.5-flash',
+            'gemini-2.0-flash',
+            'gemini-2.0-flash-lite',
+            'gemini-flash-latest',
+            'gemini-1.5-flash',
+            'gemini-1.5-flash-8b'
+        ]
+        
+        for model_name in gemini_models_to_try:
+            try:
+                model = genai.GenerativeModel(model_name)
+                response = model.generate_content(prompt)
+                return ChatResponse(answer=response.text.strip())
+            except Exception as e:
+                import logging
+                logging.error(f"[{model_name}] API EXCEPTION: {str(e)}")
+                continue
+                
+        # If we reach here, ALL models failed (exhausted). Fall down to manual handlers below.
             
     # --- Intelligent Contextual Fallback (If no API Key or API fails) ---
     question_lower = question.lower()

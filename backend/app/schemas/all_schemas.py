@@ -45,6 +45,11 @@ class UserBase(BaseModel):
     location: Optional[str] = None
 
 class UserCreate(UserBase):
+    from pydantic import constr
+    password: str # We can validate min length next, but Pydantic v2 has Field(min_length=8)
+    
+class LoginRequest(BaseModel):
+    email: EmailStr
     password: str
 
 class UserOut(UserBase):

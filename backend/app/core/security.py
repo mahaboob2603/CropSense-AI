@@ -2,23 +2,22 @@ import os
 from datetime import datetime, timedelta
 from typing import Optional
 from jose import JWTError, jwt
-import bcrypt
+from passlib.context import CryptContext
 
-SECRET_KEY = os.getenv("SECRET_KEY", "CHANGE_ME_IN_PRODUCTION")
-if SECRET_KEY == "CHANGE_ME_IN_PRODUCTION":
+SECRET_KEY = os.getenv("SECRET_KEY")
+if not SECRET_KEY:
     import warnings
-    warnings.warn("⚠️  JWT SECRET_KEY is using the default fallback. Set SECRET_KEY in your .env file for production!", stacklevel=2)
+    warnings.warn("⚠️  JWT SECRET_KEY is missing. Set SECRET_KEY in your .env file for production!", stacklevel=2)
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7 # 1 week
+ACCESS_TOKEN_EXPIRE_MINUTES = 1440 # 1 day
+
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
-    try:
-        return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
-    except ValueError:
-        return False
+    return pwd_context.verify(plain_password, hashed_password)
 
 def get_password_hash(password: str) -> str:
-    return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
+    return pwd_context.hash(password)
 
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
     to_encode = data.copy()

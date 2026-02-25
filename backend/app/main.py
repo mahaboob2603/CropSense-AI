@@ -23,9 +23,11 @@ models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="CropSense AI")
 
+frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
+# In FastAPI, you CANNOT use wildcard origins `["*"]` with allow_credentials=True.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins for local network access
+    allow_origins=[frontend_url, "http://127.0.0.1:3000", "http://localhost:3000"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

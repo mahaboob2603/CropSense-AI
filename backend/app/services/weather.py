@@ -37,20 +37,30 @@ def get_spread_risk(lat: float, lon: float, crop_name: str = "Unknown", disease_
 
     # Intercept with AI context if Gemini is available
     if GEMINI_API_KEY and risk_level != "UNKNOWN" and "Reject" not in disease_name and disease_name != "Unknown":
-        try:
-            model = genai.GenerativeModel('gemini-1.5-flash')
-            prompt = f"""
+        gemini_models_to_try = [
+            'gemini-1.5-flash',
+            'gemini-2.0-flash',
+            'gemini-1.5-flash-8b',
+            'gemini-1.5-pro',
+            'gemini-1.0-pro'
+        ]
+        prompt = f"""
 You are an expert agronomist AI for a dashboard.
 A farmer's {crop_name} crop has been diagnosed with '{disease_name}'.
 The current live weather at their GPS location is exactly {temp}°C with robust {humidity}% humidity.
 Write exactly ONE concise, professional sentence (max 25 words) explaining how these CURRENT real-time weather conditions will affect the spread or severity of this specific disease.
 Do not recommend treatments, only atmospheric facts. Do not use Markdown.
 """
-            response = model.generate_content(prompt)
-            if response.text:
-                explanation = response.text.replace('\n', ' ').strip()
-        except Exception as e:
-            print("Gemini Weather Insight Error:", e)
+        for model_name in gemini_models_to_try:
+            try:
+                model = genai.GenerativeModel(model_name)
+                response = model.generate_content(prompt)
+                if response.text:
+                    explanation = response.text.replace('\n', ' ').strip()
+                    break # Success, exit the loop
+            except Exception as e:
+                print(f"[{model_name}] Gemini Weather Insight Error: {e}, trying next...")
+                continue
             
     return {
         "risk_level": risk_level,
