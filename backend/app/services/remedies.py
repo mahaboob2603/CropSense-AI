@@ -786,6 +786,190 @@ REMEDIES = {
                 "సరైన మొక్కల మధ్య దూరాన్ని నిర్వహించాలి."
             ]
         }
+    },
+    "Corn_(maize)___Common_rust_": {
+        "EN": {
+            "disease_name": "Corn Common Rust",
+            "crop": "Corn (Maize)",
+            "cause": "Fungus Puccinia sorghi. Spores carried by wind from tropical regions.",
+            "symptoms": [
+                "Small, circular to elongate reddish-brown pustules on both leaf surfaces.",
+                "Pustules break open releasing powdery rust spores.",
+                "Heavily infected leaves may yellow and die."
+            ],
+            "treatment_steps": [
+                "Scout fields regularly after tasseling.",
+                "Apply foliar fungicide if pustules appear before tasseling.",
+                "Remove severely infected plant debris after harvest."
+            ],
+            "organic_options": [
+                "Neem oil spray as preventative.",
+                "Sulfur-based organic fungicide.",
+                "Encourage beneficial insects that feed on spores."
+            ],
+            "chemical_options": [
+                "Mancozeb 75 WP (2.5g/L).",
+                "Propiconazole at recommended dose.",
+                "Azoxystrobin + Propiconazole combination."
+            ],
+            "prevention": [
+                "Plant rust-resistant corn hybrids.",
+                "Early planting to avoid peak spore season.",
+                "Balanced nitrogen fertilization."
+            ]
+        },
+        "HI": {
+            "disease_name": "Corn Common Rust (हिंदी)",
+            "crop": "मक्का",
+            "cause": "Fungus Puccinia sorghi. Spores carried by wind from tropical regions.",
+            "symptoms": [
+                "Small, circular to elongate reddish-brown pustules on both leaf surfaces.",
+                "Pustules break open releasing powdery rust spores.",
+                "Heavily infected leaves may yellow and die."
+            ],
+            "treatment_steps": [
+                "Scout fields regularly after tasseling.",
+                "Apply foliar fungicide if pustules appear before tasseling.",
+                "Remove severely infected plant debris after harvest."
+            ],
+            "organic_options": [
+                "Neem oil spray as preventative.",
+                "Sulfur-based organic fungicide.",
+                "Encourage beneficial insects that feed on spores."
+            ],
+            "chemical_options": [
+                "Mancozeb 75 WP (2.5g/L).",
+                "Propiconazole at recommended dose.",
+                "Azoxystrobin + Propiconazole combination."
+            ],
+            "prevention": [
+                "Plant rust-resistant corn hybrids.",
+                "Early planting to avoid peak spore season.",
+                "Balanced nitrogen fertilization."
+            ]
+        },
+        "TE": {
+            "disease_name": "Corn Common Rust (తెలుగు)",
+            "crop": "మొక్కజొన్న",
+            "cause": "Fungus Puccinia sorghi. Spores carried by wind from tropical regions.",
+            "symptoms": [
+                "Small, circular to elongate reddish-brown pustules on both leaf surfaces.",
+                "Pustules break open releasing powdery rust spores.",
+                "Heavily infected leaves may yellow and die."
+            ],
+            "treatment_steps": [
+                "Scout fields regularly after tasseling.",
+                "Apply foliar fungicide if pustules appear before tasseling.",
+                "Remove severely infected plant debris after harvest."
+            ],
+            "organic_options": [
+                "Neem oil spray as preventative.",
+                "Sulfur-based organic fungicide.",
+                "Encourage beneficial insects that feed on spores."
+            ],
+            "chemical_options": [
+                "Mancozeb 75 WP (2.5g/L).",
+                "Propiconazole at recommended dose.",
+                "Azoxystrobin + Propiconazole combination."
+            ],
+            "prevention": [
+                "Plant rust-resistant corn hybrids.",
+                "Early planting to avoid peak spore season.",
+                "Balanced nitrogen fertilization."
+            ]
+        }
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+        "EN": {
+            "disease_name": "Corn Northern Leaf Blight",
+            "crop": "Corn (Maize)",
+            "cause": "Fungus Exserohilum turcicum. Favors moderate temperatures (18-27°C) and high humidity.",
+            "symptoms": [
+                "Large, cigar-shaped gray-green to tan lesions (up to 15cm).",
+                "Lesions start on lower leaves and progress upward.",
+                "Severe infection causes significant yield loss."
+            ],
+            "treatment_steps": [
+                "Apply fungicide at early tassel stage if disease is present.",
+                "Rotate crops to break disease cycle.",
+                "Incorporate infected residue into soil after harvest."
+            ],
+            "organic_options": [
+                "Trichoderma harzianum soil application.",
+                "Copper hydroxide spray.",
+                "Crop rotation with legumes."
+            ],
+            "chemical_options": [
+                "Azoxystrobin at recommended rate.",
+                "Propiconazole + Azoxystrobin premix.",
+                "Mancozeb 75 WP (2.5g/L)."
+            ],
+            "prevention": [
+                "Select resistant hybrids (Ht genes).",
+                "Avoid no-till continuous corn.",
+                "Ensure adequate plant spacing for air flow."
+            ]
+        },
+        "HI": {
+            "disease_name": "Corn Northern Leaf Blight (हिंदी)",
+            "crop": "मक्का",
+            "cause": "Fungus Exserohilum turcicum. Favors moderate temperatures (18-27°C) and high humidity.",
+            "symptoms": [
+                "Large, cigar-shaped gray-green to tan lesions (up to 15cm).",
+                "Lesions start on lower leaves and progress upward.",
+                "Severe infection causes significant yield loss."
+            ],
+            "treatment_steps": [
+                "Apply fungicide at early tassel stage if disease is present.",
+                "Rotate crops to break disease cycle.",
+                "Incorporate infected residue into soil after harvest."
+            ],
+            "organic_options": [
+                "Trichoderma harzianum soil application.",
+                "Copper hydroxide spray.",
+                "Crop rotation with legumes."
+            ],
+            "chemical_options": [
+                "Azoxystrobin at recommended rate.",
+                "Propiconazole + Azoxystrobin premix.",
+                "Mancozeb 75 WP (2.5g/L)."
+            ],
+            "prevention": [
+                "Select resistant hybrids (Ht genes).",
+                "Avoid no-till continuous corn.",
+                "Ensure adequate plant spacing for air flow."
+            ]
+        },
+        "TE": {
+            "disease_name": "మొక్కజొన్న ఉత్తర ఆకుమచ్చ తెగులు",
+            "crop": "మొక్కజొన్న",
+            "cause": "Exserohilum turcicum అనే శిలీంధ్రం వల్ల వస్తుంది. మధ్యస్థ ఉష్ణోగ్రతలు (18-27°C) మరియు అధిక తేమ దీనికి అనుకూలం.",
+            "symptoms": [
+                "పెద్ద, సిగార్ ఆకారంలో బూడిద-ఆకుపచ్చ నుండి గోధుమ రంగు మచ్చలు (15 సెం.మీ వరకు).",
+                "మచ్చలు కింది ఆకులపై ప్రారంభమై పైకి వ్యాపిస్తాయి.",
+                "తీవ్రమైన సంక్రమణ గణనీయమైన దిగుబడి నష్టానికి కారణమవుతుంది."
+            ],
+            "treatment_steps": [
+                "తెగులు ఉంటే ప్రారంభ కంకి దశలో శిలీంద్రనాశకాలు పిచికారీ చేయాలి.",
+                "తెగులు చక్రం నివారించడానికి పంట మార్పిడి చేయాలి.",
+                "కోత తర్వాత సోకిన అవశేషాలను మట్టిలో కలిపి దున్నాలి."
+            ],
+            "organic_options": [
+                "ట్రైకోడెర్మా హర్జైనమ్ నేల అనువర్తనం.",
+                "కాపర్ హైడ్రాక్సైడ్ పిచికారీ.",
+                "పప్పుధాన్యాల పంటలతో పంట మార్పిడి."
+            ],
+            "chemical_options": [
+                "సిఫార్సు చేయబడిన మోతాదులో అజాక్సిస్ట్రోబిన్.",
+                "ప్రొపికోనజోల్ + అజాక్సిస్ట్రోబిన్ ప్రీమిక్స్.",
+                "మ్యాంకోజెబ్ 75 WP (2.5గ్రా/లీ)."
+            ],
+            "prevention": [
+                "నిరోధక హైబ్రిడ్‌లను (Ht జన్యువులు) ఎంచుకోండి.",
+                "దున్నకుండా నిరంతర మొక్కజొన్న సాగును నివారించండి.",
+                "గాలి ప్రసరణ కోసం మొక్కల మధ్య తగినంత దూరం ఉండేలా చూసుకోండి."
+            ]
+        }
     }
 }
 
