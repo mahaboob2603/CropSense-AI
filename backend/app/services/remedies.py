@@ -1062,6 +1062,98 @@ REMEDIES = {
                 "Plant resistant varieties when possible."
             ]
         }
+    },
+    "Grape___Esca_(Black_Measles)": {
+        "EN": {
+            "disease_name": "Grape Esca (Black Measles)",
+            "crop": "Grape",
+            "cause": "Fungal complex: Phaeomoniella and Phaeoacremonium spp. Wood-inhabiting fungi.",
+            "symptoms": [
+                "Interveinal leaf striping and scorching.",
+                "Dark spots on berries resembling measles.",
+                "Sudden vine collapse (apoplexy) in severe cases."
+            ],
+            "treatment_steps": [
+                "Prune during dry weather to minimize infection.",
+                "Apply wound sealant to large pruning cuts.",
+                "Remove and destroy severely infected vines."
+            ],
+            "organic_options": [
+                "Trichoderma-based biocontrol on pruning wounds.",
+                "Garlic extract foliar spray.",
+                "Compost application to improve plant vigor."
+            ],
+            "chemical_options": [
+                "Sodium arsenite (where legally permitted).",
+                "Fosetyl-Al trunk injection.",
+                "Thiophanate-methyl wound paint."
+            ],
+            "prevention": [
+                "Avoid pruning in wet conditions.",
+                "Use double pruning technique.",
+                "Source planting material from certified nurseries."
+            ]
+        },
+        "HI": {
+            "disease_name": "Grape Esca (Black Measles) (हिंदी)",
+            "crop": "अंगूर",
+            "cause": "Fungal complex: Phaeomoniella and Phaeoacremonium spp. Wood-inhabiting fungi.",
+            "symptoms": [
+                "Interveinal leaf striping and scorching.",
+                "Dark spots on berries resembling measles.",
+                "Sudden vine collapse (apoplexy) in severe cases."
+            ],
+            "treatment_steps": [
+                "Prune during dry weather to minimize infection.",
+                "Apply wound sealant to large pruning cuts.",
+                "Remove and destroy severely infected vines."
+            ],
+            "organic_options": [
+                "Trichoderma-based biocontrol on pruning wounds.",
+                "Garlic extract foliar spray.",
+                "Compost application to improve plant vigor."
+            ],
+            "chemical_options": [
+                "Sodium arsenite (where legally permitted).",
+                "Fosetyl-Al trunk injection.",
+                "Thiophanate-methyl wound paint."
+            ],
+            "prevention": [
+                "Avoid pruning in wet conditions.",
+                "Use double pruning technique.",
+                "Source planting material from certified nurseries."
+            ]
+        },
+        "TE": {
+            "disease_name": "Grape Esca (Black Measles) (తెలుగు)",
+            "crop": "ద్రాక్ష",
+            "cause": "Fungal complex: Phaeomoniella and Phaeoacremonium spp. Wood-inhabiting fungi.",
+            "symptoms": [
+                "Interveinal leaf striping and scorching.",
+                "Dark spots on berries resembling measles.",
+                "Sudden vine collapse (apoplexy) in severe cases."
+            ],
+            "treatment_steps": [
+                "Prune during dry weather to minimize infection.",
+                "Apply wound sealant to large pruning cuts.",
+                "Remove and destroy severely infected vines."
+            ],
+            "organic_options": [
+                "Trichoderma-based biocontrol on pruning wounds.",
+                "Garlic extract foliar spray.",
+                "Compost application to improve plant vigor."
+            ],
+            "chemical_options": [
+                "Sodium arsenite (where legally permitted).",
+                "Fosetyl-Al trunk injection.",
+                "Thiophanate-methyl wound paint."
+            ],
+            "prevention": [
+                "Avoid pruning in wet conditions.",
+                "Use double pruning technique.",
+                "Source planting material from certified nurseries."
+            ]
+        }
     }
 }
 
