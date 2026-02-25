@@ -1,0 +1,50 @@
+# Root gitignore to prevent pushing massive datasets, models, and virtual environments
+
+venv/
+__pycache__/
+
+# Datasets
+*.zip
+dataset/
+data_split/
+new_dataset_extracted/
+_temp_extract/
+
+# Models
+*.keras
+*.h5
+*.tflite
+*.onnx
+
+# Outputs, Logs, Metrics
+logs/
+*.csv
+*.png
+*.jpg
+!frontend/**/*.png
+!frontend/**/*.jpg
+!backend/demo_images/*.png
+!backend/demo_images/*.jpg
+
+# Log texts
+*_log*.txt
+*_out*.txt
+*_utf8.txt
+debug*.txt
+error*.txt
+prep_error.txt
+fresh_debug*.txt
+test_curl_out.txt
+
+# DB
+*.db
+*.sqlite3
+
+# Node/NextJS (redundant to frontend/.gitignore but safe)
+node_modules/
+.next/
+dist/
+
+# Env vars
+.env
+.env.local
