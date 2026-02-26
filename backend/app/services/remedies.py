@@ -1154,6 +1154,926 @@ REMEDIES = {
                 "Source planting material from certified nurseries."
             ]
         }
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+        "EN": {
+            "disease_name": "Grape Leaf Blight (Isariopsis)",
+            "crop": "Grape",
+            "cause": "Fungus Pseudocercospora vitis. Favors warm, humid monsoon conditions.",
+            "symptoms": [
+                "Dark brown irregular spots on leaf margins.",
+                "Yellow halo around lesions.",
+                "Premature defoliation reducing vine vigor."
+            ],
+            "treatment_steps": [
+                "Remove fallen infected leaves from vineyard.",
+                "Apply fungicide spray at disease onset.",
+                "Ensure proper vine training for air flow."
+            ],
+            "organic_options": [
+                "Bordeaux mixture (1%) spray.",
+                "Neem oil at 5ml/L.",
+                "Pseudomonas fluorescens biocontrol."
+            ],
+            "chemical_options": [
+                "Mancozeb 75 WP (2.5g/L).",
+                "Carbendazim 50 WP (1g/L).",
+                "Copper oxychloride (3g/L)."
+            ],
+            "prevention": [
+                "Avoid overhead irrigation.",
+                "Maintain weed-free vineyard floor.",
+                "Balanced fertilization to avoid excess nitrogen."
+            ]
+        },
+        "HI": {
+            "disease_name": "Grape Leaf Blight (Isariopsis) (हिंदी)",
+            "crop": "अंगूर",
+            "cause": "Fungus Pseudocercospora vitis. Favors warm, humid monsoon conditions.",
+            "symptoms": [
+                "Dark brown irregular spots on leaf margins.",
+                "Yellow halo around lesions.",
+                "Premature defoliation reducing vine vigor."
+            ],
+            "treatment_steps": [
+                "Remove fallen infected leaves from vineyard.",
+                "Apply fungicide spray at disease onset.",
+                "Ensure proper vine training for air flow."
+            ],
+            "organic_options": [
+                "Bordeaux mixture (1%) spray.",
+                "Neem oil at 5ml/L.",
+                "Pseudomonas fluorescens biocontrol."
+            ],
+            "chemical_options": [
+                "Mancozeb 75 WP (2.5g/L).",
+                "Carbendazim 50 WP (1g/L).",
+                "Copper oxychloride (3g/L)."
+            ],
+            "prevention": [
+                "Avoid overhead irrigation.",
+                "Maintain weed-free vineyard floor.",
+                "Balanced fertilization to avoid excess nitrogen."
+            ]
+        },
+        "TE": {
+            "disease_name": "Grape Leaf Blight (Isariopsis) (తెలుగు)",
+            "crop": "ద్రాక్ష",
+            "cause": "Fungus Pseudocercospora vitis. Favors warm, humid monsoon conditions.",
+            "symptoms": [
+                "Dark brown irregular spots on leaf margins.",
+                "Yellow halo around lesions.",
+                "Premature defoliation reducing vine vigor."
+            ],
+            "treatment_steps": [
+                "Remove fallen infected leaves from vineyard.",
+                "Apply fungicide spray at disease onset.",
+                "Ensure proper vine training for air flow."
+            ],
+            "organic_options": [
+                "Bordeaux mixture (1%) spray.",
+                "Neem oil at 5ml/L.",
+                "Pseudomonas fluorescens biocontrol."
+            ],
+            "chemical_options": [
+                "Mancozeb 75 WP (2.5g/L).",
+                "Carbendazim 50 WP (1g/L).",
+                "Copper oxychloride (3g/L)."
+            ],
+            "prevention": [
+                "Avoid overhead irrigation.",
+                "Maintain weed-free vineyard floor.",
+                "Balanced fertilization to avoid excess nitrogen."
+            ]
+        }
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+        "EN": {
+            "disease_name": "Citrus Greening (Huanglongbing)",
+            "crop": "Orange",
+            "cause": "Bacterium Candidatus Liberibacter spp., transmitted by Asian citrus psyllid.",
+            "symptoms": [
+                "Asymmetric blotchy mottling of leaves.",
+                "Small, lopsided, bitter fruit that stays green.",
+                "Twig dieback and overall tree decline."
+            ],
+            "treatment_steps": [
+                "Control psyllid vector with systemic insecticides.",
+                "Remove and destroy confirmed infected trees.",
+                "Apply nutritional sprays to maintain tree health."
+            ],
+            "organic_options": [
+                "Kaolin clay spray to deter psyllids.",
+                "Release Tamarixia radiata parasitoid wasps.",
+                "Neem oil for psyllid suppression."
+            ],
+            "chemical_options": [
+                "Imidacloprid soil drench for psyllid control.",
+                "Dimethoate foliar spray.",
+                "Spirotetramat (Movento) systemic."
+            ],
+            "prevention": [
+                "Use disease-free certified nursery stock.",
+                "Regular scouting for psyllid populations.",
+                "Community-wide psyllid management programs."
+            ]
+        },
+        "HI": {
+            "disease_name": "Citrus Greening (Huanglongbing) (हिंदी)",
+            "crop": "संतरा",
+            "cause": "Bacterium Candidatus Liberibacter spp., transmitted by Asian citrus psyllid.",
+            "symptoms": [
+                "Asymmetric blotchy mottling of leaves.",
+                "Small, lopsided, bitter fruit that stays green.",
+                "Twig dieback and overall tree decline."
+            ],
+            "treatment_steps": [
+                "Control psyllid vector with systemic insecticides.",
+                "Remove and destroy confirmed infected trees.",
+                "Apply nutritional sprays to maintain tree health."
+            ],
+            "organic_options": [
+                "Kaolin clay spray to deter psyllids.",
+                "Release Tamarixia radiata parasitoid wasps.",
+                "Neem oil for psyllid suppression."
+            ],
+            "chemical_options": [
+                "Imidacloprid soil drench for psyllid control.",
+                "Dimethoate foliar spray.",
+                "Spirotetramat (Movento) systemic."
+            ],
+            "prevention": [
+                "Use disease-free certified nursery stock.",
+                "Regular scouting for psyllid populations.",
+                "Community-wide psyllid management programs."
+            ]
+        },
+        "TE": {
+            "disease_name": "Citrus Greening (Huanglongbing) (తెలుగు)",
+            "crop": "నారింజ",
+            "cause": "Bacterium Candidatus Liberibacter spp., transmitted by Asian citrus psyllid.",
+            "symptoms": [
+                "Asymmetric blotchy mottling of leaves.",
+                "Small, lopsided, bitter fruit that stays green.",
+                "Twig dieback and overall tree decline."
+            ],
+            "treatment_steps": [
+                "Control psyllid vector with systemic insecticides.",
+                "Remove and destroy confirmed infected trees.",
+                "Apply nutritional sprays to maintain tree health."
+            ],
+            "organic_options": [
+                "Kaolin clay spray to deter psyllids.",
+                "Release Tamarixia radiata parasitoid wasps.",
+                "Neem oil for psyllid suppression."
+            ],
+            "chemical_options": [
+                "Imidacloprid soil drench for psyllid control.",
+                "Dimethoate foliar spray.",
+                "Spirotetramat (Movento) systemic."
+            ],
+            "prevention": [
+                "Use disease-free certified nursery stock.",
+                "Regular scouting for psyllid populations.",
+                "Community-wide psyllid management programs."
+            ]
+        }
+    },
+    "Peach___Bacterial_spot": {
+        "EN": {
+            "disease_name": "Peach Bacterial Spot",
+            "crop": "Peach",
+            "cause": "Bacterium Xanthomonas arboricola pv. pruni. Spread by wind-driven rain.",
+            "symptoms": [
+                "Small, angular water-soaked leaf spots.",
+                "Spots turn dark brown with yellow halos.",
+                "Fruit develops sunken, cracked lesions."
+            ],
+            "treatment_steps": [
+                "Apply copper sprays at petal fall.",
+                "Remove severely infected branches.",
+                "Avoid overhead irrigation to reduce splash spread."
+            ],
+            "organic_options": [
+                "Copper hydroxide at reduced rates.",
+                "Bacillus subtilis biological spray.",
+                "Neem oil as supplemental spray."
+            ],
+            "chemical_options": [
+                "Oxytetracycline (Mycoshield) at label rate.",
+                "Copper + Mancozeb tank mix.",
+                "Kasugamycin where registered."
+            ],
+            "prevention": [
+                "Plant resistant cultivars.",
+                "Proper tree spacing for air movement.",
+                "Sanitary pruning of infected wood."
+            ]
+        },
+        "HI": {
+            "disease_name": "Peach Bacterial Spot (हिंदी)",
+            "crop": "आड़ू",
+            "cause": "Bacterium Xanthomonas arboricola pv. pruni. Spread by wind-driven rain.",
+            "symptoms": [
+                "Small, angular water-soaked leaf spots.",
+                "Spots turn dark brown with yellow halos.",
+                "Fruit develops sunken, cracked lesions."
+            ],
+            "treatment_steps": [
+                "Apply copper sprays at petal fall.",
+                "Remove severely infected branches.",
+                "Avoid overhead irrigation to reduce splash spread."
+            ],
+            "organic_options": [
+                "Copper hydroxide at reduced rates.",
+                "Bacillus subtilis biological spray.",
+                "Neem oil as supplemental spray."
+            ],
+            "chemical_options": [
+                "Oxytetracycline (Mycoshield) at label rate.",
+                "Copper + Mancozeb tank mix.",
+                "Kasugamycin where registered."
+            ],
+            "prevention": [
+                "Plant resistant cultivars.",
+                "Proper tree spacing for air movement.",
+                "Sanitary pruning of infected wood."
+            ]
+        },
+        "TE": {
+            "disease_name": "Peach Bacterial Spot (తెలుగు)",
+            "crop": "పీచ్",
+            "cause": "Bacterium Xanthomonas arboricola pv. pruni. Spread by wind-driven rain.",
+            "symptoms": [
+                "Small, angular water-soaked leaf spots.",
+                "Spots turn dark brown with yellow halos.",
+                "Fruit develops sunken, cracked lesions."
+            ],
+            "treatment_steps": [
+                "Apply copper sprays at petal fall.",
+                "Remove severely infected branches.",
+                "Avoid overhead irrigation to reduce splash spread."
+            ],
+            "organic_options": [
+                "Copper hydroxide at reduced rates.",
+                "Bacillus subtilis biological spray.",
+                "Neem oil as supplemental spray."
+            ],
+            "chemical_options": [
+                "Oxytetracycline (Mycoshield) at label rate.",
+                "Copper + Mancozeb tank mix.",
+                "Kasugamycin where registered."
+            ],
+            "prevention": [
+                "Plant resistant cultivars.",
+                "Proper tree spacing for air movement.",
+                "Sanitary pruning of infected wood."
+            ]
+        }
+    },
+    "Pepper,_bell___Bacterial_spot": {
+        "EN": {
+            "disease_name": "Pepper Bacterial Spot",
+            "crop": "Pepper (Bell)",
+            "cause": "Bacterium Xanthomonas campestris pv. vesicatoria. Seed-borne and rain-splashed.",
+            "symptoms": [
+                "Small, dark, water-soaked spots on leaves.",
+                "Spots enlarge with yellow halos.",
+                "Raised, scab-like lesions on fruit."
+            ],
+            "treatment_steps": [
+                "Remove infected plant debris immediately.",
+                "Apply copper-based bactericide at first symptoms.",
+                "Use drip irrigation to avoid leaf wetness."
+            ],
+            "organic_options": [
+                "Copper hydroxide spray (2g/L).",
+                "Bacillus amyloliquefaciens biocontrol.",
+                "Hot water seed treatment (50°C, 25 min)."
+            ],
+            "chemical_options": [
+                "Copper oxychloride + Mancozeb.",
+                "Streptomycin sulfate where permitted.",
+                "Kasugamycin at recommended rates."
+            ],
+            "prevention": [
+                "Use certified disease-free seed.",
+                "Rotate with non-solanaceous crops (3-year).",
+                "Avoid working in fields when foliage is wet."
+            ]
+        },
+        "HI": {
+            "disease_name": "Pepper Bacterial Spot (हिंदी)",
+            "crop": "शिमला मिर्च",
+            "cause": "Bacterium Xanthomonas campestris pv. vesicatoria. Seed-borne and rain-splashed.",
+            "symptoms": [
+                "Small, dark, water-soaked spots on leaves.",
+                "Spots enlarge with yellow halos.",
+                "Raised, scab-like lesions on fruit."
+            ],
+            "treatment_steps": [
+                "Remove infected plant debris immediately.",
+                "Apply copper-based bactericide at first symptoms.",
+                "Use drip irrigation to avoid leaf wetness."
+            ],
+            "organic_options": [
+                "Copper hydroxide spray (2g/L).",
+                "Bacillus amyloliquefaciens biocontrol.",
+                "Hot water seed treatment (50°C, 25 min)."
+            ],
+            "chemical_options": [
+                "Copper oxychloride + Mancozeb.",
+                "Streptomycin sulfate where permitted.",
+                "Kasugamycin at recommended rates."
+            ],
+            "prevention": [
+                "Use certified disease-free seed.",
+                "Rotate with non-solanaceous crops (3-year).",
+                "Avoid working in fields when foliage is wet."
+            ]
+        },
+        "TE": {
+            "disease_name": "Pepper Bacterial Spot (తెలుగు)",
+            "crop": "క్యాప్సికమ్",
+            "cause": "Bacterium Xanthomonas campestris pv. vesicatoria. Seed-borne and rain-splashed.",
+            "symptoms": [
+                "Small, dark, water-soaked spots on leaves.",
+                "Spots enlarge with yellow halos.",
+                "Raised, scab-like lesions on fruit."
+            ],
+            "treatment_steps": [
+                "Remove infected plant debris immediately.",
+                "Apply copper-based bactericide at first symptoms.",
+                "Use drip irrigation to avoid leaf wetness."
+            ],
+            "organic_options": [
+                "Copper hydroxide spray (2g/L).",
+                "Bacillus amyloliquefaciens biocontrol.",
+                "Hot water seed treatment (50°C, 25 min)."
+            ],
+            "chemical_options": [
+                "Copper oxychloride + Mancozeb.",
+                "Streptomycin sulfate where permitted.",
+                "Kasugamycin at recommended rates."
+            ],
+            "prevention": [
+                "Use certified disease-free seed.",
+                "Rotate with non-solanaceous crops (3-year).",
+                "Avoid working in fields when foliage is wet."
+            ]
+        }
+    },
+    "Potato___Early_blight": {
+        "EN": {
+            "disease_name": "Potato Early Blight",
+            "crop": "Potato",
+            "cause": "Fungus Alternaria solani. Favors warm days, cool nights, and alternating wet/dry periods.",
+            "symptoms": [
+                "Dark brown concentric ring spots (target-like) on lower leaves.",
+                "Leaves yellow and drop prematurely.",
+                "Tubers develop dark, sunken, dry lesions."
+            ],
+            "treatment_steps": [
+                "Apply fungicide at first sign of lesions.",
+                "Remove lower infected leaves.",
+                "Harvest tubers when fully mature."
+            ],
+            "organic_options": [
+                "Copper-based fungicide spray.",
+                "Bacillus subtilis biological control.",
+                "Compost tea foliar application."
+            ],
+            "chemical_options": [
+                "Chlorothalonil (Bravo) at 7-day intervals.",
+                "Mancozeb 75 WP (2.5g/L).",
+                "Azoxystrobin at recommended rate."
+            ],
+            "prevention": [
+                "Use certified seed potatoes.",
+                "Rotate with non-solanaceous crops.",
+                "Maintain adequate soil fertility and irrigation."
+            ]
+        },
+        "HI": {
+            "disease_name": "Potato Early Blight (हिंदी)",
+            "crop": "आलू",
+            "cause": "Fungus Alternaria solani. Favors warm days, cool nights, and alternating wet/dry periods.",
+            "symptoms": [
+                "Dark brown concentric ring spots (target-like) on lower leaves.",
+                "Leaves yellow and drop prematurely.",
+                "Tubers develop dark, sunken, dry lesions."
+            ],
+            "treatment_steps": [
+                "Apply fungicide at first sign of lesions.",
+                "Remove lower infected leaves.",
+                "Harvest tubers when fully mature."
+            ],
+            "organic_options": [
+                "Copper-based fungicide spray.",
+                "Bacillus subtilis biological control.",
+                "Compost tea foliar application."
+            ],
+            "chemical_options": [
+                "Chlorothalonil (Bravo) at 7-day intervals.",
+                "Mancozeb 75 WP (2.5g/L).",
+                "Azoxystrobin at recommended rate."
+            ],
+            "prevention": [
+                "Use certified seed potatoes.",
+                "Rotate with non-solanaceous crops.",
+                "Maintain adequate soil fertility and irrigation."
+            ]
+        },
+        "TE": {
+            "disease_name": "Potato Early Blight (తెలుగు)",
+            "crop": "బంగాళాదుంప",
+            "cause": "Fungus Alternaria solani. Favors warm days, cool nights, and alternating wet/dry periods.",
+            "symptoms": [
+                "Dark brown concentric ring spots (target-like) on lower leaves.",
+                "Leaves yellow and drop prematurely.",
+                "Tubers develop dark, sunken, dry lesions."
+            ],
+            "treatment_steps": [
+                "Apply fungicide at first sign of lesions.",
+                "Remove lower infected leaves.",
+                "Harvest tubers when fully mature."
+            ],
+            "organic_options": [
+                "Copper-based fungicide spray.",
+                "Bacillus subtilis biological control.",
+                "Compost tea foliar application."
+            ],
+            "chemical_options": [
+                "Chlorothalonil (Bravo) at 7-day intervals.",
+                "Mancozeb 75 WP (2.5g/L).",
+                "Azoxystrobin at recommended rate."
+            ],
+            "prevention": [
+                "Use certified seed potatoes.",
+                "Rotate with non-solanaceous crops.",
+                "Maintain adequate soil fertility and irrigation."
+            ]
+        }
+    },
+    "Potato___Late_blight": {
+        "EN": {
+            "disease_name": "Potato Late Blight",
+            "crop": "Potato",
+            "cause": "Oomycete Phytophthora infestans. Spreads rapidly in cool, wet weather.",
+            "symptoms": [
+                "Water-soaked, dark green to brown lesions on leaves.",
+                "White fuzzy sporulation on leaf undersides.",
+                "Tubers develop firm, reddish-brown granular rot."
+            ],
+            "treatment_steps": [
+                "Apply protectant fungicide before disease onset.",
+                "Destroy all infected plant material.",
+                "Harvest early if epidemic threatens."
+            ],
+            "organic_options": [
+                "Copper hydroxide spray at 5-7 day intervals.",
+                "Bordeaux mixture (1%).",
+                "Rapid hilling to protect tubers."
+            ],
+            "chemical_options": [
+                "Metalaxyl + Mancozeb (Ridomil Gold MZ).",
+                "Cymoxanil + Mancozeb.",
+                "Dimethomorph at recommended rate."
+            ],
+            "prevention": [
+                "Use resistant varieties.",
+                "Destroy volunteer potato plants.",
+                "Avoid overhead irrigation at night."
+            ]
+        },
+        "HI": {
+            "disease_name": "आलू का पछेती झुलसा",
+            "crop": "आलू",
+            "cause": "ऊमाइसेट फाइटोफ्थोरा इन्फेस्टन्स। ठंडे, नम मौसम में तेज़ी से फैलता है।",
+            "symptoms": [
+                "पत्तियों पर पानी से भीगे हुए, गहरे हरे से भूरे धब्बे।",
+                "पत्तियों के निचले हिस्सों पर सफेद रूईदार बीजाणु बनते हैं।",
+                "कंदों में कठोर, लाल-भूरे दानेदार सड़ांध विकसित होती है।"
+            ],
+            "treatment_steps": [
+                "रोग लगने से पहले सुरक्षात्मक फफूंदनाशक लगाएं।",
+                "सभी संक्रमित पौधों के अवशेष नष्ट करें।",
+                "यदि महामारी का खतरा हो तो जल्दी कटाई करें।"
+            ],
+            "organic_options": [
+                "5-7 दिन के अंतराल पर कॉपर हाइड्रॉक्साइड का छिड़काव।",
+                "बोर्डो मिश्रण (1%)।",
+                "कंदों की सुरक्षा के लिए तेज़ी से मिट्टी चढ़ाना।"
+            ],
+            "chemical_options": [
+                "मेटालेक्सिल + मैंकोज़ेब (रिडोमिल गोल्ड एमजेड)।",
+                "साइमोक्सानिल + मैंकोज़ेब।",
+                "डाइमेथोमॉर्फ अनुशंसित दर पर।"
+            ],
+            "prevention": [
+                "प्रतिरोधी किस्मों का उपयोग करें।",
+                "स्वयं उगने वाले आलू के पौधों को नष्ट करें।",
+                "रात में ऊपर से सिंचाई करने से बचें।"
+            ]
+        },
+        "TE": {
+            "disease_name": "బంగాళాదుంప ఆలస్యమైన తెగులు",
+            "crop": "బంగాళాదుంప",
+            "cause": "ఊమైసెట్ ఫైటోఫ్థోరా ఇన్ఫెస్టాన్స్. చల్లని, తడి వాతావరణంలో వేగంగా వ్యాపిస్తుంది.",
+            "symptoms": [
+                "ఆకులపై నీటితో తడిసిన, ముదురు ఆకుపచ్చ నుండి గోధుమ రంగు గాయాలు.",
+                "ఆకు అడుగు భాగాలలో తెలుపు వెంట్రుకల వంటి బీజాంశ ఉత్పత్తి.",
+                "దుంపలు గట్టి, ఎరుపు-గోధుమ రంగు గింజల వంటి కుళ్ళిపోవడాన్ని అభివృద్ధి చెందుతాయి."
+            ],
+            "treatment_steps": [
+                "తెగులు ప్రారంభానికి ముందు రక్షణాత్మక శిలీంధ్ర నాశినిని వర్తించండి.",
+                "సోకిన అన్ని మొక్క పదార్థాన్ని నాశనం చేయండి.",
+                "అంటువ్యాధి బెదిరిస్తే ముందుగానే కోయండి."
+            ],
+            "organic_options": [
+                "5-7 రోజుల వ్యవధిలో కాపర్ హైడ్రాక్సైడ్ స్ప్రే.",
+                "బోర్డియక్స్ మిశ్రమం (1%).",
+                "దుంపలను రక్షించడానికి వేగవంతమైన మట్టిని ఎగదోయడం."
+            ],
+            "chemical_options": [
+                "మెటలాక్సిల్ + మాంకోజెబ్ (రిడోమిల్ గోల్డ్ MZ).",
+                "సైమాక్సానిల్ + మాంకోజెబ్.",
+                "సిఫార్సు చేయబడిన మోతాదు వద్ద డిమెథోమోర్ఫ్."
+            ],
+            "prevention": [
+                "నిరోధక రకాలను ఉపయోగించండి.",
+                "స్వచ్ఛందంగా పెరిగే బంగాళాదుంప మొక్కలను నాశనం చేయండి.",
+                "రాత్రిపూట పై నుండి నీటిపారుదలని నివారించండి."
+            ]
+        }
+    },
+    "Squash___Powdery_mildew": {
+        "EN": {
+            "disease_name": "Squash Powdery Mildew",
+            "crop": "Squash",
+            "cause": "Fungi Podosphaera xanthii and Erysiphe cichoracearum. Warm, dry, shaded conditions.",
+            "symptoms": [
+                "White, talcum-like powder on upper leaf surfaces.",
+                "Yellowish patches under white growth.",
+                "Leaves become brown and brittle, premature defoliation."
+            ],
+            "treatment_steps": [
+                "Remove severely infected leaves promptly.",
+                "Apply fungicide at first sign of white patches.",
+                "Increase sun exposure by thinning foliage."
+            ],
+            "organic_options": [
+                "Potassium bicarbonate (3g/L + surfactant).",
+                "Sulfur spray in dry conditions.",
+                "Milk spray (40% solution)."
+            ],
+            "chemical_options": [
+                "Myclobutanil at label rate.",
+                "Trifloxystrobin preventive spray.",
+                "Chlorothalonil at 7-10 day intervals."
+            ],
+            "prevention": [
+                "Plant resistant squash varieties.",
+                "Provide adequate spacing (1.5m).",
+                "Avoid excessive nitrogen fertilization."
+            ]
+        },
+        "HI": {
+            "disease_name": "Squash Powdery Mildew (हिंदी)",
+            "crop": "कद्दू",
+            "cause": "Fungi Podosphaera xanthii and Erysiphe cichoracearum. Warm, dry, shaded conditions.",
+            "symptoms": [
+                "White, talcum-like powder on upper leaf surfaces.",
+                "Yellowish patches under white growth.",
+                "Leaves become brown and brittle, premature defoliation."
+            ],
+            "treatment_steps": [
+                "Remove severely infected leaves promptly.",
+                "Apply fungicide at first sign of white patches.",
+                "Increase sun exposure by thinning foliage."
+            ],
+            "organic_options": [
+                "Potassium bicarbonate (3g/L + surfactant).",
+                "Sulfur spray in dry conditions.",
+                "Milk spray (40% solution)."
+            ],
+            "chemical_options": [
+                "Myclobutanil at label rate.",
+                "Trifloxystrobin preventive spray.",
+                "Chlorothalonil at 7-10 day intervals."
+            ],
+            "prevention": [
+                "Plant resistant squash varieties.",
+                "Provide adequate spacing (1.5m).",
+                "Avoid excessive nitrogen fertilization."
+            ]
+        },
+        "TE": {
+            "disease_name": "Squash Powdery Mildew (తెలుగు)",
+            "crop": "గుమ్మడి",
+            "cause": "Fungi Podosphaera xanthii and Erysiphe cichoracearum. Warm, dry, shaded conditions.",
+            "symptoms": [
+                "White, talcum-like powder on upper leaf surfaces.",
+                "Yellowish patches under white growth.",
+                "Leaves become brown and brittle, premature defoliation."
+            ],
+            "treatment_steps": [
+                "Remove severely infected leaves promptly.",
+                "Apply fungicide at first sign of white patches.",
+                "Increase sun exposure by thinning foliage."
+            ],
+            "organic_options": [
+                "Potassium bicarbonate (3g/L + surfactant).",
+                "Sulfur spray in dry conditions.",
+                "Milk spray (40% solution)."
+            ],
+            "chemical_options": [
+                "Myclobutanil at label rate.",
+                "Trifloxystrobin preventive spray.",
+                "Chlorothalonil at 7-10 day intervals."
+            ],
+            "prevention": [
+                "Plant resistant squash varieties.",
+                "Provide adequate spacing (1.5m).",
+                "Avoid excessive nitrogen fertilization."
+            ]
+        }
+    },
+    "Strawberry___Leaf_scorch": {
+        "EN": {
+            "disease_name": "Strawberry Leaf Scorch",
+            "crop": "Strawberry",
+            "cause": "Fungus Diplocarpon earlianum. Spread by splashing rain in warm, humid weather.",
+            "symptoms": [
+                "Small, dark purple spots on upper leaf surface.",
+                "Spots enlarge, areas between turn reddish-purple.",
+                "Severe infection causes leaf drying and scorching."
+            ],
+            "treatment_steps": [
+                "Remove old, infected leaves after harvest.",
+                "Apply fungicide from bloom through harvest.",
+                "Renovate beds by mowing and thinning."
+            ],
+            "organic_options": [
+                "Copper-based spray at early bloom.",
+                "Neem oil at 5ml/L.",
+                "Remove runners to reduce canopy density."
+            ],
+            "chemical_options": [
+                "Captan 50 WP (2g/L).",
+                "Myclobutanil at recommended rate.",
+                "Azoxystrobin at label rate."
+            ],
+            "prevention": [
+                "Plant resistant cultivars.",
+                "Use raised beds with drip irrigation.",
+                "Proper plant spacing (30cm) for air flow."
+            ]
+        },
+        "HI": {
+            "disease_name": "स्ट्रॉबेरी पत्ती झुलसा रोग",
+            "crop": "स्ट्रॉबेरी",
+            "cause": "फंगस डिप्लोकार्पोन अर्लियानम। गर्म, आर्द्र मौसम में छींटों वाली बारिश द्वारा फैलता है।",
+            "symptoms": [
+                "पत्ती की ऊपरी सतह पर छोटे, गहरे बैंगनी धब्बे।",
+                "धब्बे बड़े हो जाते हैं, उनके बीच के क्षेत्र लाल-बैंगनी हो जाते हैं।",
+                "गंभीर संक्रमण पत्ती का सूखना और झुलसन का कारण बनता है।"
+            ],
+            "treatment_steps": [
+                "कटाई के बाद पुरानी, संक्रमित पत्तियों को हटाएँ।",
+                "फूल आने से कटाई तक फफूंदनाशक का प्रयोग करें।",
+                "घास काटने और विरलन द्वारा क्यारियों का नवीनीकरण करें।"
+            ],
+            "organic_options": [
+                "शुरुआती फूल आने पर तांबा-आधारित स्प्रे।",
+                "5 मिलीलीटर/लीटर पर नीम का तेल।",
+                "चंदवा घनत्व कम करने के लिए धावकों को हटाएँ।"
+            ],
+            "chemical_options": [
+                "कैप्टन 50 डब्ल्यूपी (2 ग्राम/लीटर)।",
+                "माइक्लोबुटानिल अनुशंसित दर पर।",
+                "एज़ोक्सिस्ट्रोबिन लेबल दर पर।"
+            ],
+            "prevention": [
+                "प्रतिरोधी किस्में लगाएँ।",
+                "ड्रिप सिंचाई के साथ उठी हुई क्यारियां उपयोग करें।",
+                "हवा के प्रवाह के लिए उचित पौधों की दूरी (30 सेमी)।"
+            ]
+        },
+        "TE": {
+            "disease_name": "స్ట్రాబెర్రీ ఆకు మాడిపోవడం",
+            "crop": "స్ట్రాబెర్రీ",
+            "cause": "డిప్లోకార్పాన్ ఎర్లియానం అనే శిలీంధ్రం. వెచ్చని, తేమతో కూడిన వాతావరణంలో చిమ్మిన వర్షం ద్వారా వ్యాపిస్తుంది.",
+            "symptoms": [
+                "ఆకు పై ఉపరితలంపై చిన్న, ముదురు ఊదా మచ్చలు.",
+                "మచ్చలు పెద్దవి అవుతాయి, వాటి మధ్య ప్రాంతాలు ఎరుపు-ఊదా రంగులోకి మారుతాయి.",
+                "తీవ్రమైన సంక్రమణ ఆకు ఎండిపోవడం మరియు మాడిపోవడానికి కారణమవుతుంది."
+            ],
+            "treatment_steps": [
+                "కోత తర్వాత పాత, సోకిన ఆకులను తొలగించండి.",
+                "పూత నుండి కోత వరకు శిలీంద్రనాశకాన్ని వర్తించండి.",
+                "కత్తిరించడం మరియు పల్చబరచడం ద్వారా పాదులను పునరుద్ధరించండి."
+            ],
+            "organic_options": [
+                "ప్రారంభ పూత వద్ద రాగి ఆధారిత పిచికారీ.",
+                "5మి.లీ/లీటరు వద్ద వేప నూనె.",
+                "పందిరి సాంద్రతను తగ్గించడానికి రన్నర్లను తొలగించండి."
+            ],
+            "chemical_options": [
+                "కాప్టాన్ 50 డబ్ల్యూపీ (2గ్రా/లీటరు).",
+                "సిఫార్సు చేయబడిన మోతాదు వద్ద మైక్లోబ్యూటానిల్.",
+                "లేబుల్ మోతాదు వద్ద అజాక్సిస్ట్రోబిన్."
+            ],
+            "prevention": [
+                "నిరోధక రకాలను నాటండి.",
+                "బిందు సేద్యంతో ఎత్తైన పాదులను ఉపయోగించండి.",
+                "గాలి ప్రవాహం కోసం సరైన మొక్కల దూరం (30సెం.మీ)."
+            ]
+        }
+    },
+    "Tomato___Leaf_Mold": {
+        "EN": {
+            "disease_name": "Tomato Leaf Mold",
+            "crop": "Tomato",
+            "cause": "Fungus Passalora fulva. Thrives in greenhouse/high humidity (>85%) conditions.",
+            "symptoms": [
+                "Pale green to yellow spots on upper leaf surface.",
+                "Olive-green to brown velvety mold on leaf underside.",
+                "Leaves curl, wither and drop; fruit rarely affected."
+            ],
+            "treatment_steps": [
+                "Improve ventilation in greenhouses immediately.",
+                "Remove infected lower leaves.",
+                "Apply fungicide at first symptoms."
+            ],
+            "organic_options": [
+                "Bacillus subtilis biocontrol spray.",
+                "Potassium bicarbonate (3g/L).",
+                "Improve greenhouse ventilation."
+            ],
+            "chemical_options": [
+                "Chlorothalonil at 7-day intervals.",
+                "Mancozeb 75 WP (2.5g/L).",
+                "Difenoconazole at label rate."
+            ],
+            "prevention": [
+                "Maintain RH below 85% with ventilation.",
+                "Use resistant tomato varieties (Cf genes).",
+                "Avoid overhead watering; use drip irrigation."
+            ]
+        },
+        "HI": {
+            "disease_name": "Tomato Leaf Mold (हिंदी)",
+            "crop": "टमाटर",
+            "cause": "Fungus Passalora fulva. Thrives in greenhouse/high humidity (>85%) conditions.",
+            "symptoms": [
+                "Pale green to yellow spots on upper leaf surface.",
+                "Olive-green to brown velvety mold on leaf underside.",
+                "Leaves curl, wither and drop; fruit rarely affected."
+            ],
+            "treatment_steps": [
+                "Improve ventilation in greenhouses immediately.",
+                "Remove infected lower leaves.",
+                "Apply fungicide at first symptoms."
+            ],
+            "organic_options": [
+                "Bacillus subtilis biocontrol spray.",
+                "Potassium bicarbonate (3g/L).",
+                "Improve greenhouse ventilation."
+            ],
+            "chemical_options": [
+                "Chlorothalonil at 7-day intervals.",
+                "Mancozeb 75 WP (2.5g/L).",
+                "Difenoconazole at label rate."
+            ],
+            "prevention": [
+                "Maintain RH below 85% with ventilation.",
+                "Use resistant tomato varieties (Cf genes).",
+                "Avoid overhead watering; use drip irrigation."
+            ]
+        },
+        "TE": {
+            "disease_name": "Tomato Leaf Mold (తెలుగు)",
+            "crop": "టమాటా",
+            "cause": "Fungus Passalora fulva. Thrives in greenhouse/high humidity (>85%) conditions.",
+            "symptoms": [
+                "Pale green to yellow spots on upper leaf surface.",
+                "Olive-green to brown velvety mold on leaf underside.",
+                "Leaves curl, wither and drop; fruit rarely affected."
+            ],
+            "treatment_steps": [
+                "Improve ventilation in greenhouses immediately.",
+                "Remove infected lower leaves.",
+                "Apply fungicide at first symptoms."
+            ],
+            "organic_options": [
+                "Bacillus subtilis biocontrol spray.",
+                "Potassium bicarbonate (3g/L).",
+                "Improve greenhouse ventilation."
+            ],
+            "chemical_options": [
+                "Chlorothalonil at 7-day intervals.",
+                "Mancozeb 75 WP (2.5g/L).",
+                "Difenoconazole at label rate."
+            ],
+            "prevention": [
+                "Maintain RH below 85% with ventilation.",
+                "Use resistant tomato varieties (Cf genes).",
+                "Avoid overhead watering; use drip irrigation."
+            ]
+        }
+    },
+    "Tomato___Septoria_leaf_spot": {
+        "EN": {
+            "disease_name": "Tomato Septoria Leaf Spot",
+            "crop": "Tomato",
+            "cause": "Fungus Septoria lycopersici. Favors warm (20-25°C), wet weather with splashing rain.",
+            "symptoms": [
+                "Many small circular spots (2-3mm) with dark borders and gray centers.",
+                "Tiny black pycnidia visible in center of spots.",
+                "Lower leaves affected first, progressing upward."
+            ],
+            "treatment_steps": [
+                "Remove infected lower leaves promptly.",
+                "Apply fungicide before rainy periods.",
+                "Mulch around plants to prevent soil splash."
+            ],
+            "organic_options": [
+                "Copper-based fungicide at first symptoms.",
+                "Garlic extract spray.",
+                "Bacillus amyloliquefaciens biocontrol."
+            ],
+            "chemical_options": [
+                "Chlorothalonil (Bravo) every 7-10 days.",
+                "Mancozeb 75 WP (2.5g/L).",
+                "Azoxystrobin at recommended rate."
+            ],
+            "prevention": [
+                "Rotate away from tomato for 2 years.",
+                "Stake and prune for air circulation.",
+                "Water at base; avoid wetting foliage."
+            ]
+        },
+        "HI": {
+            "disease_name": "टमाटर सेप्टोरिया पत्ती धब्बा",
+            "crop": "टमाटर",
+            "cause": "कवक सेप्टोरिया लाइकोपर्सिकी। गर्म (20-25°C), नम मौसम और बारिश के छीटों के साथ अनुकूल होती है।",
+            "symptoms": [
+                "कई छोटे गोलाकार धब्बे (2-3 मिमी) गहरे किनारों और भूरे केंद्रों के साथ।",
+                "धब्बों के केंद्र में छोटे काले पिकनिडिया दिखाई देते हैं।",
+                "निचली पत्तियां पहले प्रभावित होती हैं, जो ऊपर की ओर बढ़ती हैं।"
+            ],
+            "treatment_steps": [
+                "संक्रमित निचली पत्तियों को तुरंत हटाएँ।",
+                "बरसात के मौसम से पहले फफूंदनाशक का छिड़काव करें।",
+                "मिट्टी के छीटों को रोकने के लिए पौधों के चारों ओर पलवार करें।"
+            ],
+            "organic_options": [
+                "पहले लक्षणों पर तांबा-आधारित फफूंदनाशक।",
+                "लहसुन अर्क का स्प्रे।",
+                "बैसिलस एमाइलोलिक्वेफेसिएन्स जैव-नियंत्रण।"
+            ],
+            "chemical_options": [
+                "क्लोरोथालोनिल (ब्रेवो) हर 7-10 दिन में।",
+                "मैनकोजेब 75 डब्ल्यू.पी. (2.5 ग्राम/ली.)।",
+                "अनुशंसित दर पर एज़ोक्सिस्ट्रोबिन।"
+            ],
+            "prevention": [
+                "2 साल के लिए टमाटर से फसल चक्रण करें।",
+                "हवा के संचार के लिए डंडे का सहारा दें और छँटाई करें।",
+                "जड़ों में पानी दें; पत्तियों को गीला करने से बचें।"
+            ]
+        },
+        "TE": {
+            "disease_name": "Tomato Septoria Leaf Spot (తెలుగు)",
+            "crop": "టమాటా",
+            "cause": "Fungus Septoria lycopersici. Favors warm (20-25°C), wet weather with splashing rain.",
+            "symptoms": [
+                "Many small circular spots (2-3mm) with dark borders and gray centers.",
+                "Tiny black pycnidia visible in center of spots.",
+                "Lower leaves affected first, progressing upward."
+            ],
+            "treatment_steps": [
+                "Remove infected lower leaves promptly.",
+                "Apply fungicide before rainy periods.",
+                "Mulch around plants to prevent soil splash."
+            ],
+            "organic_options": [
+                "Copper-based fungicide at first symptoms.",
+                "Garlic extract spray.",
+                "Bacillus amyloliquefaciens biocontrol."
+            ],
+            "chemical_options": [
+                "Chlorothalonil (Bravo) every 7-10 days.",
+                "Mancozeb 75 WP (2.5g/L).",
+                "Azoxystrobin at recommended rate."
+            ],
+            "prevention": [
+                "Rotate away from tomato for 2 years.",
+                "Stake and prune for air circulation.",
+                "Water at base; avoid wetting foliage."
+            ]
+        }
     }
 }
 
